@@ -1,0 +1,7 @@
+This tool will send rcon queries to a quake3 server
+using progressively smaller timeout values.
+
+Usage: ./findMinRconDelay.py <ip> <port> <rconpass> <delay in ms>
+
+ie:
+$ ./findMinRconDelay.py 11.22.33.44 27960 secret 550
